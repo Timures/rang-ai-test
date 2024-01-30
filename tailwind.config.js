@@ -9,9 +9,25 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        'input-textarea': 'var(--input-textarea, #F5F5F5)',
+      },
       colors: {
-        "vtd-primary": colors.sky, // Light mode Datepicker color
+        "vtd-primary": colors.gray, // Light mode Datepicker color
         "vtd-secondary": colors.gray, // Dark mode Datepicker color
+        'Green': '#219B60',
+        'Orange': '#D8602A',
+        'Blue': '#0B74B0'
+      },
+      fontFamily: {
+        golos: ['Golos Text', 'sans-serif'],
+        inter: ['Inter', 'sans-serif']
+      },
+      fontSize: {
+        '50px': '50px',
+      },
+      lineHeight: {
+        '56px': '56px',
       },
     },
   },

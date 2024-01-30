@@ -3,7 +3,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss"],
   plugins: [
-    '~/plugins/vue-tailwind-datepicker.js',
-    '~/plugins/dayjs.js'
+    '~/plugins/vue-datepicker.js',
+    '~/plugins/vue-tippy.js',
+    '~/plugins/vue3-star-ratings.js'
   ],
+  build: {
+    transpile: ['@vuepic/vue-datepicker']
+}
 })
