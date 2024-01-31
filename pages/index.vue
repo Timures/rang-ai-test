@@ -4,6 +4,7 @@ import PeriodSelector from '~/components/PeriodSelector.vue'
 import Tooltip from '~/components/TooltipBtn.vue'
 import vue3starRatings from "vue3-star-ratings";
 import ToggleBtn from '~/components/ToggleBtn.vue'
+import PlatformItem from '~/components/PlatformItem.vue';
 const rating = ref(4.5)
 </script>
 
@@ -90,8 +91,8 @@ const rating = ref(4.5)
                     <ToggleBtn />
                 </div>
 
-                <div class="border-b border-solid border-blue-link dark:border-dark-blue-link">
-                    Яндекс карты
+                <div class="">
+                    <PlatformItem :platformId="1" />
                 </div>
 
             </div>
