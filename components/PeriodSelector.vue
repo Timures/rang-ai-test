@@ -85,7 +85,7 @@ const setDateRange = (days: number): void => {
 
     
     emits('selectPeriod', days);
-    console.log('setDateRange', days);
+    // console.log('setDateRange', days);
 };
 
 const getDefaultDateRange = () => {

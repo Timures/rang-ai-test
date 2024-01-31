@@ -226,10 +226,7 @@ const fetchDataBasedOnDays = async (days:number) => {
         await fetchDataByPeriod('/api/month');
     }
     
-    else {
-        // Добавь другие условия, если необходимо
-        console.log('No endpoint for the given number of days.');
-    }
+   // add 1 90 365
 
  
 }
@@ -258,7 +255,7 @@ const fetchData = async () => {
 
 // отправляем в бэк изменение статуса 
 const handleChangeStatus = (platformID:number) => {
-    console.log('change status', platformID)
+    // console.log('change status', platformID)
     submitChangeStatus(platformID)
     
 }
@@ -271,7 +268,7 @@ const submitChangeStatus = async (platformID:number) => {
         }
     })
 
-    console.log(responseData.value)
+    // console.log(responseData.value)
 }
 
 onMounted(() => {
