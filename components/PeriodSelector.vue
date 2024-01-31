@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, defineEmits} from 'vue';
 
 const dateValue = ref();
 
@@ -32,6 +32,7 @@ const periodList: PeriodItem[] = [
     { label: "Год", days: 365 }
 ]
 
+const emits = defineEmits(['selectPeriod']);
 
 const setDateRange = (days: number): void => {
 
@@ -82,6 +83,8 @@ const setDateRange = (days: number): void => {
             break;
     }
 
+    
+    emits('selectPeriod', days);
     console.log('setDateRange', days);
 };
 

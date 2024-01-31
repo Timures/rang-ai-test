@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "status": true,
+    "Rating": {
+      "start": 2.2,
+      "end": 4.5
+    },
+    "reviews": {
+      "start": 40,
+      "end": 118
+    },
+    "IncreaseRating": {
+      "rating": 2.3,
+      "reviews": 78
+    },
+    "ShareNegativeToday": {
+      "percent": 4,
+      "reviews": 16,
+      "total": 391
+    },
+    "PlaceCity": {
+      "place": 1,
+      "total": 2023,
+      "isUp": true,
+      "isDown": false
+    }
+  },
+  {
+    "id": 2,
+    "status": true,
+    "Rating": {
+      "start": 3.0,
+      "end": 4.8
+    },
+    "reviews": {
+      "start": 55,
+      "end": 130
+    },
+    "IncreaseRating": {
+      "rating": 1.8,
+      "reviews": 75
+    },
+    "ShareNegativeToday": {
+      "percent": 3,
+      "reviews": 14,
+      "total": 421
+    },
+    "PlaceCity": {
+      "place": 2,
+      "total": 1850,
+      "isUp": false,
+      "isDown": true
+    }
+  },
+  {
+    "id": 3,
+    "status": true,
+    "Rating": {
+      "start": 2.5,
+      "end": 4.0
+    },
+    "reviews": {
+      "start": 30,
+      "end": 90
+    },
+    "IncreaseRating": {
+      "rating": 1.5,
+      "reviews": 60
+    },
+    "ShareNegativeToday": {
+      "percent": 5,
+      "reviews": 20,
+      "total": 300
+    },
+    "PlaceCity": {
+      "place": 3,
+      "total": 1500,
+      "isUp": true,
+      "isDown": false
+    }
+  },
+  {
+    "id": 4,
+    "status": true,
+    "Rating": {
+      "start": 3.5,
+      "end": 4.7
+    },
+    "reviews": {
+      "start": 48,
+      "end": 112
+    },
+    "IncreaseRating": {
+      "rating": 1.2,
+      "reviews": 64
+    },
+    "ShareNegativeToday": {
+      "percent": 2,
+      "reviews": 12,
+      "total": 390
+    },
+    "PlaceCity": {
+      "place": 4,
+      "total": 2200,
+      "isUp": false,
+      "isDown": true
+    }
+  },
+  {
+    "id": 5,
+    "status": true,
+    "Rating": {
+      "start": 2.8,
+      "end": 4.3
+    },
+    "reviews": {
+      "start": 42,
+      "end": 102
+    },
+    "IncreaseRating": {
+      "rating": 1.5,
+      "reviews": 60
+    },
+    "ShareNegativeToday": {
+      "percent": 3,
+      "reviews": 18,
+      "total": 340
+    },
+    "PlaceCity": {
+      "place": 5,
+      "total": 1800,
+      "isUp": true,
+      "isDown": false
+    }
+  },
+  {
+    "id": 6,
+    "status": true,
+    "Rating": {
+      "start": 3.2,
+      "end": 4.9
+    },
+    "reviews": {
+      "start": 60,
+      "end": 135
+    },
+    "IncreaseRating": {
+      "rating": 1.7,
+      "reviews": 75
+    },
+    "ShareNegativeToday": {
+      "percent": 2,
+      "reviews": 15,
+      "total": 410
+    },
+    "PlaceCity": {
+      "place": 6,
+      "total": 2500,
+      "isUp": false,
+      "isDown": true
+    }
+  }
+]

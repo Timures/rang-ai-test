@@ -1,13 +1,3 @@
-<script setup lang="ts">
-import { ref } from 'vue'
-
-const isChecked = ref(false)
-
-const handleCheckboxChange = () => {
-  isChecked.value = !isChecked.value
-}
-</script>
-
 <template>
   <label class="flex cursor-pointer select-none items-center">
     <div class="relative">
@@ -23,3 +13,19 @@ const handleCheckboxChange = () => {
     </div>
   </label>
 </template>
+
+<script setup lang="ts">
+import { ref, defineProps, defineEmits } from 'vue'
+
+const props = defineProps({
+  isChecked: Boolean
+})
+
+const emits = defineEmits(['changeStatus'])
+
+const handleCheckboxChange = () => {
+  props.isChecked = !props.isChecked
+  // отправляем в бэк, изменение статуса
+  emits('changeStatus')
+}
+</script>
